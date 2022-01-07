@@ -1,0 +1,41 @@
+<LayoutModificationTemplate xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" Version="1" xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" xmlns:taskbar="http://schemas.microsoft.com/Start/2014/TaskbarLayout">
+  <LayoutOptions StartTileGroupCellWidth="6" />
+  <DefaultLayoutOverride LayoutCustomizationRestrictionType="OnlySpecifiedGroups">
+    <StartLayoutCollection>
+      <defaultlayout:StartLayout GroupCellWidth="6">
+        <start:Group Name="Program">
+
+          <start:DesktopApplicationTile Size="1x1" Column="0" Row="0" DesktopApplicationID="Microsoft.Office.WINWORD.EXE.15" />
+          <start:DesktopApplicationTile Size="1x1" Column="1" Row="0" DesktopApplicationID="Microsoft.Office.MSPUB.EXE.15" />
+          <start:DesktopApplicationTile Size="1x1" Column="2" Row="0" DesktopApplicationID="Microsoft.Office.ONENOTE.EXE.15" />
+          <start:DesktopApplicationTile Size="1x1" Column="3" Row="0" DesktopApplicationID="Microsoft.Office.POWERPNT.EXE.15" />
+          <start:DesktopApplicationTile Size="1x1" Column="4" Row="0" DesktopApplicationID="Microsoft.Office.OUTLOOK.EXE.15" />
+          <start:DesktopApplicationTile Size="1x1" Column="5" Row="0" DesktopApplicationID="Microsoft.Office.EXCEL.EXE.15" />
+          <start:DesktopApplicationTile Size="1x1" Column="0" Row="1" DesktopApplicationID="Microsoft.SkyDrive.Desktop" />
+		  <start:DesktopApplicationTile Size="1x1" Column="1" Row="1" DesktopApplicationID="com.squirrel.Teams.Teams" />
+		  <start:DesktopApplicationTile Size="1x1" Column="0" Row="2" DesktopApplicationID="Microsoft.Windows.Explorer" />
+		  <start:DesktopApplicationTile Size="1x1" Column="1" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk" />
+		  <start:DesktopApplicationTile Size="1x1" Column="2" Row="2" AppUserModelID="Microsoft.Whiteboard_8wekyb3d8bbwe!Whiteboard" />
+          <start:DesktopApplicationTile Size="1x1" Column="3" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Movie Maker.lnk" />
+          <start:DesktopApplicationTile Size="1x1" Column="4" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Photo Story 3 för Windows.lnk" />
+		  <start:DesktopApplicationTile Size="1x1" Column="5" Row="2" DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Audacity.lnk" />
+          <start:DesktopApplicationTile Size="2x2" Column="0" Row="3" DesktopApplicationID="MSEdge" />		  
+		  <start:Tile Size="2x2" Column="2" Row="3" AppUserModelID="Microsoft.CompanyPortal_8wekyb3d8bbwe!App" />
+        </start:Group>
+      </defaultlayout:StartLayout>
+    </StartLayoutCollection>
+  </DefaultLayoutOverride>
+	  <CustomTaskbarLayoutCollection PinListPlacement="Replace">
+		<defaultlayout:TaskbarLayout>
+			<taskbar:TaskbarPinList>
+				<taskbar:DesktopApp DesktopApplicationID="Microsoft.Windows.Explorer" />
+				<taskbar:DesktopApp DesktopApplicationID="MSEdge" />
+				<taskbar:DesktopApp DesktopApplicationID="Microsoft.Office.OUTLOOK.EXE.15" />
+				<taskbar:DesktopApp DesktopApplicationID="Microsoft.Office.WINWORD.EXE.15" />
+				<taskbar:DesktopApp DesktopApplicationID="Microsoft.Office.ONENOTE.EXE.15" />
+				<taskbar:DesktopApp DesktopApplicationID="Microsoft.Office.POWERPNT.EXE.15" />
+				<taskbar:DesktopApp DesktopApplicationID="com.squirrel.Teams.Teams" />
+			</taskbar:TaskbarPinList>
+		</defaultlayout:TaskbarLayout>
+	</CustomTaskbarLayoutCollection>
+</LayoutModificationTemplate>
